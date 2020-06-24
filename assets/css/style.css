@@ -1,0 +1,147 @@
+/*----------------------------------Colours------------------------------*/
+
+.bg-color-name-title {
+    background-color: aqua;
+}
+
+.ui-menu-color-home {
+    background-color: springgreen;
+}
+
+.ui-menu-color-resume {
+    background-color: rgb(50, 185, 145);
+}
+
+.ui-menu-color-download {
+    background-color: springgreen;
+}
+
+/*--------------------Special Paddings/Margins/test---------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-----------------------------------Header------------------------------*/
+
+.name {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    color: mediumblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: mediumblue;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#nav {
+    column-count: 3;
+    justify-content: center;
+    column-gap: 0;
+}
+
+.menuitem {
+    height: 100px;
+    text-align: center;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: mediumblue;
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    text-align: center;
+    size: 20px;
+}
+
+.menuitem span {
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------------Section-----------------------------*/
+
+
+
+/*-----------------------------------Footer------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+.column-footer {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    min-height: auto;
+    background-color: aqua;
+}
+
+.column-footer p {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.social-links {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    column-count: 5;
+}
+
+ul {
+    list-style-type: none;   
+}
+
+.social-links li {
+    padding-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: mediumblue;
+    background: rgb(50, 185, 145);
+}
+
+.social-links li a i:hover {
+    background: yellowgreen;
+}
+
+
+
+@media(min-width: 768px) {
+    .column-footer {
+        width: 33.33%;
+        min-height: 150px;
+    }
+}
