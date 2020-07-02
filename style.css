@@ -84,34 +84,42 @@ p {
     letter-spacing: 2px;
 }
 
-/*-----------------------------------Section-----------------------------*/
+/*----------------------------------1st Section-----------------------------*/
 
-#mid-content {
-    column-count: 2;
-    column-gap: 0;
-    height: 500px;
-    margin: 0;
+.personalTitle {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.left {
+    resize: both;
+    float: left;
+}
+
+.middle {
+    padding: 20px;
+    float: left;
+}
+
+.right {
+    padding: 20px;
+    float: right;
+}
+
+/*----------------------------------2nd Section-----------------------------*/
+
+.aboutMeTitle {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+span.sub {
+    display: inline-block;
+    text-align: left;
+    max-width: 33%;
+    height: 150px;
     padding: 0;
-}
-
-.personal-items {
-    
-}
-
-.responsive {
-    width: 67%;
-    height: auto;
     margin: 0;
-    padding: 0;
-    border: solid 1px green;
-}
-
-.contact-details {
-
-}
-
-.about-me-items {
-
 }
 
 /*-----------------------------------Footer------------------------------*/
@@ -163,8 +171,6 @@ ul {
 .social-links li a i:hover {
     background: yellowgreen;
 }
-
-
 
 @media(min-width: 768px) {
     .column-footer {
