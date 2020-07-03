@@ -115,7 +115,7 @@ p {
 span.sub {
     display: inline-block;
     text-align: left;
-    max-width: 33%;
+    width: 33%;
     height: 150px;
     padding: 0;
     margin: 0;
@@ -175,5 +175,17 @@ ul {
     .column-footer {
         width: 33.33%;
         min-height: 110px;
+    }
+}
+
+@media(max-width: 830px) {
+    span.sub {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1092px) {
+    .right {
+        float: left;
     }
 }
