@@ -76,7 +76,7 @@ p {
 }
 
 .menuitem span {
-    display: block;
+    display: inline-block;
     padding-top: 5px;
     text-transform: uppercase;
     font-size: 15px;
@@ -84,9 +84,17 @@ p {
     letter-spacing: 2px;
 }
 
-/*-----------------------------------Section-----------------------------*/
+/*------------------------Section - experiences.html---------------------*/
 
+.column {
+    float: left;
+    width: 25%;
+}
 
+#myCards img {
+    width: 100%;
+    height: auto;
+}
 
 /*-----------------------------------Footer------------------------------*/
 * {
@@ -136,8 +144,6 @@ ul {
 .social-links li a i:hover {
     background: yellowgreen;
 }
-
-
 
 @media(min-width: 768px) {
     .column-footer {
