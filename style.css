@@ -55,7 +55,13 @@ p {
 
 /*Section*/
 
-
+/*id below is identical to the Love Running walk through project, but does not work in Gitpod*/
+#myCards {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
 
 /*Footer*/
 
@@ -106,4 +112,5 @@ ul {
         width: 33.33%;
         min-height: 110px;
     }
+    
 }
