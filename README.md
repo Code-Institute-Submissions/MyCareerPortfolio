@@ -1,8 +1,8 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+## MY CAREER PORTFOLIO
 
-Welcome CygnusKernow,
+Welcome,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is my personal career portfolio from the present to back to 1990, covering summary files of the work I performed for specific organisations over the years. The summary files can be accessed via the resume page, where there are 14 jpg images and onced a particular imaged is clicked on a specific summary page will open in a new window as a pdf file format.
 
 ## Gitpod Reminders
 
@@ -14,26 +14,30 @@ A blue button should appear to click: *Make Public*,
 
 Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## UX
 
-A blue button should appear to click: *Make Public*,
+To get to a point where coding could start I used Balsamiq Wireframes to experiment with various arrangements, see link: (https://e9b69726-707e-4f11-8b32-2169d2e7908e.ws-eu01.gitpod.io/files/download/?id=f2eedcf5-2673-4adf-bd15-75573a499e71), which in the end was loosly followed. The end result was a better arrangement to accommodate the various screen sizes from mobiles to PC screens. The design ethos was to produce a responsive web design approach.
 
-Another blue button should appear to click: *Open Browser*.
+This web site is too show what I have achieved in almost 30 years in work covering many different types of systems where the projects existed in many different countries world-wide. Show-casing my achievements and skills is for the intended marketplace of Engineering Companies, Research Establishments and Recruitment Agencies for the purpose of obtaining a new career position.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Features
 
-## Updates Since The Instructional Video
+The main features allows the user to navigate easily through the web-site, which is intuitive as it is basic. The addition of having the career point summaries being provided as downloadable pdf fact sheets makes it both simple to use and useful for discussions away from a comuter terminal.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+The main improvements is to replace all of the Lorem ipsum text with the real factual detailed text.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Technologies used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+At the beginning mind mapping with the KnowledgeBase Builder was used to get a feel for the requirements of the project for the strategy formulation part of the design process. This was followed by frog leaping the scope and structure process steps to produce the Wireframes using Balsamiq Wireframes tool for the skeleton plane design step.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+During coding GitHub with Gitpod was used along with the use of Visual Studio Code IDE concurrently to appreciate the diiferences in how the web-site looks in the different environments.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing
 
---------
 
-Happy coding!
+## Deployment
+
+
+## Credits
+
+
