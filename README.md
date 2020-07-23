@@ -34,8 +34,27 @@ During coding GitHub with Gitpod was used along with the use of Visual Studio Co
 
 ## Testing
 
+index.html:
+
+The only error from this file using validator.w3.org is as follows: https://e9b69726-707e-4f11-8b32-2169d2e7908e.ws-eu01.gitpod.io/files/download/?id=26ae1c2f-3851-4544-b18c-e8159b095c23. However, I am ignoring this error as I am getting the result I want with it being in place.
+
+experiences.html:
+
+There are 14 errors and 1 warning in this file as shown in: https://github.com/CygnusKernow/MyCareerPortfolio/blob/9fb594b7cf127a2c551873b1af28567b1203c6c0/assets/Testing-Errors/experiences-file-errors.jpg. The 14 errors are the same as the one error in the index file. Since I am getting the result I want to provide all of these are being ignored and considered irrelevant.
+
+style.css:
+
+No errors present in this file:
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
 
 ## Deployment
+
 
 
 ## Credits
