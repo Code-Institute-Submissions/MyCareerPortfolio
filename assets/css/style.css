@@ -53,69 +53,35 @@ p {
     margin: 0;
 }
 
-#nav {
-    column-count: 3;
-    justify-content: center;
-    column-gap: 0;
+.nav a i:hover {
+    background: yellowgreen;
 }
 
-.menuitem {
-    height: 100px;
-    text-align: center;
+/*------------------------Section - index.html---------------------*/
+
+#a {
+    padding-right: 10px
 }
 
-.menuitem a {
-    text-decoration: none;
-    color: mediumblue;
-}
-
-.menuitem a i {
-    padding-top: 20px;
-    text-align: center;
-    size: 20px;
-}
-
-.menuitem span {
-    display: inline-block;
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-/*------------------------Section - experiences.html---------------------*/
-
-.column {
-    float: left;
-    width: 25%;
-}
-
-#myCards img {
-    width: 100%;
-    height: auto;
+#c {
+    scroll-padding-left: 10px
 }
 
 /*-----------------------------------Footer------------------------------*/
-* {
-    box-sizing: border-box;
-}
 
 .column-footer {
-    float: left;
     width: 100%;
-    padding: 10px;
     min-height: auto;
     background-color: aqua;
+    color: mediumblue;
 }
 
 .column-footer p {
     text-align: justify;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .social-links {
-    display: inline-block;
     margin: 0;
     padding: 0;
     column-count: 5;
