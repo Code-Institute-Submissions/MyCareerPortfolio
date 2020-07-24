@@ -2,7 +2,9 @@
 
 Welcome,
 
-This is my personal career portfolio from the present to back to 1990, covering summary files of the work I performed for specific organisations over the years. The summary files can be accessed via the resume page, where there are 14 jpg images and onced a particular imaged is clicked on a specific summary page will open in a new window as a pdf file format.
+This is my personal career portfolio from the present to back to 1990, covering summary files of the work I performed for specific organisations over the years. The summary files can be accessed via the resume page, where there are 14 jpg images and onced a particular imaged is clicked-on, a specific summary page will be opened in a new window as a pdf file format.
+
+The home page contains a bespoke jpg image, which identifies the main theme of what I am about, plus all the systems, tasks, research and inventions I have done. Text in orange are the systems I have analysed. Text in black are the Engineering tasks I have performed. Text in blue are the research areas performed. Text in purple are the published work. Lastly the text in light green is the invention I have created complete with patent achieved.
 
 ## Gitpod Reminders
 
