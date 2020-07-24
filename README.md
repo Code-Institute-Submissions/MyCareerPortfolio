@@ -57,8 +57,33 @@ No errors present in this file:
 
 ## Deployment
 
-
+The project was published to Github pages from Gitpob modifiying code to GitHub via this process: https://github.com/CygnusKernow/MyCareerPortfolio/blob/d7d70d60818833eeaf1afc06aea84a7b662f417c/assets/images/Gitpod%20to%20GitHub%20Process.jpg. The GitHub pages url is: https://cygnuskernow.github.io/MyCareerPortfolio/.
 
 ## Credits
 
+2020 from 2015 image comes from: https://uklandpower.files.wordpress.com/2017/12/scout-family.jpg?w=616
+
+2014 from 2012 image comes from: https://images.squarespace-cdn.com/content/v1/59d4e7a964b05fbc36e24371/1509447773816-RV3BDADNMMROTVTEJTQ1/ke17ZwdGBToddI8pDm48kDAM1TzZbz7FQzyBVXkD1rhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwC6wFkH6fg6k1a3JcCd1gdvDaJommVL4U2dFoZ3PUdcGemYEZf4wy9NTIERCnW2cU/Wind-Turbine-Schematic-2011-06-01.12.jpg?format=750w
+
+Early 2012 image comes from: http://www.kahn.com/hydraulic/Developments/tp400_small.jpg
+
+2011 image comes from: https://www.researchgate.net/publication/320597589/figure/fig1/AS:573688248532993@1513789345676/A-map-of-Saudi-Arabia-showing-the-geographical-distribution-of-the-10-potentially.png
+
+2011 from 2010 image comes from page 5 of 26 in the following document: https://www.ipo.gov.uk/p-ipsum/Document/ApplicationNumber/GB1208441.4/8f029032-cc60-49be-ab52-48fc75afd9cc/GB2501939-20141008-Publication%20document.pdf
+
+2009 images comes from: http://3.bp.blogspot.com/-GCth4h_h0Do/Tz6ba3KRRRI/AAAAAAAAAs8/Fzm0uYhvmPw/s400/ORD_LMM_FASGW-L_AW159-SCMR_and_AH1_Apache_Thales-UK_lg.jpg and from https://www.savetheroyalnavy.org/wp-content/uploads/2019/01/Martlet-LMM.jpg
+
+2008 from 2006 image comes from: https://www.alamy.com/stock-photo-panther-armoured-vehicle-in-action-19510986.html
+
+2006 from 2003 image comes from: https://sites.google.com/site/u5668189comp6353lp/_/rsrc/1432362768386/week-10-model-based-systems-engineering-and-simulation/1.jpg
+
+2003 from 2000 images comes from: http://img.dailymail.co.uk/img/galleries/trojantank/04_350x237.jpg and from http://www.armedforces.co.uk/army/listings/trojan_1a.jpg
+
+2000 from 1998 image comes from: https://www.cad.gov.hk/english/engimages/cnsatm02_s.jpg
+
+1998 from 1995 images comes from: https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F47f633ed-0081-4fe4-96fc-175f045a927e.jpg?fit=scale-down&source=next&width=700 and from https://www.specialistukrestorations.com/wp-content/uploads/2015/03/Heysham-nuclear-power-sta-008.jpg
+
+1994 from 1993 images comes from: http://www.armedforces.co.uk/navy/listings/navytrafalgara.jpg and from https://www.world-nuclear.org/getmedia/36abc3d0-2114-4b04-a014-59de9c6e4b84/UK-nuclear-submarine-layout.gif.aspx
+
+1993 from 1991 images comes from http://paragon.myvnc.com/TheParagon-Space2/TRANSPORTATION/AeroSpacePlanes/Fastest-Jetplanes/L-Tornado-ADV.html and from https://imgproc.airliners.net/photos/airliners/6/1/0/0915016.jpg?v=v40
 
