@@ -7,7 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>My-Personal-Portfolio</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css">
@@ -16,85 +22,170 @@
 
 <body>
 	<header>
-		<div class="row no-gutters bg-color-name-title">
-			<div class="col">
-				<h1 class="name">Stuart Chandler</h1>
-				<h2 class="title">Full Stack Developer</h2>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="nav col-12">
-				<div class="col-md-4 ui-menu-color-home">
-					<a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-				</div>
-				<div class="col-md-4 ui-menu-color-resume">
-					<a href="experiences.html"><i class="fas fa-graduation-cap"></i><span>Resume</span></a>
-				</div>
-				<div class="col-md-4 ui-menu-color-download">
-					<a href="assets/cv/mycv.pdf" target="_blank"><i class="fas fa-download"></i><span>Download</span></a>
-				</div>
-			</div>
-		</div>
-	</header>
-	<img src="assets/images/EngineeringDataAnalysis.jpg" alt="MyDataAnalysis" width="100%" height="300">
-	<section>
-		<div class="row no-gutters">
-			<div class="personalTitle">
-                <br>
-				<h3>PERSONAL INFORMATION</h3>
-                <br>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-md-6 col-sd-12">
-				<div class="left">
-					<h4>NAME: Stuart R. Chandler</h4>
-					<br>
-                    <br>
-					<h4>PHONE: 01685 652896</h4>
-                    <br>
-				</div>
-			</div>
-			<div class="col-md-6 col-sd-12">
-				<div class="right">
-					<h4>ADDRESS: 7 Middle Row, Rhymney, Tredegar, NP22 5QJ</h4>
-					<br>
-					<h5>EMAIL: chandler.cygnus@googlemail.com</h5>
-                    <br>
-				</div>
-			</div>
-		</div>
-		<div class="row no-gutters aboutMeTitle">
-			<h3>ABOUT ME</h3>
-		</div>
-		<div class="row no-gutters">
-			<span id="a" class="col-md-4 col-12 sub">
-                <br>
-                WHAT CAN I DO?
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo sit amet leo non lacinia.
-                Mauris laoreet accumsan feugiat. Nullam vel metus turpis. Integer tincidunt iaculis felis ut
-                lacinia. Duis.
-            </span>
-			<span id="b" class="col-md-4 col-12 sub">
-                <br>
-                HOW CAN I DO IT?
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo sit amet leo non lacinia.
-                Mauris laoreet accumsan feugiat. Nullam vel metus turpis. Integer tincidunt iaculis felis ut
-                lacinia. Duis.
-            </span>
-			<span id="c" class="col-md-4 col-12 sub">
-                <br>
-                WHY HIRE ME?
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo sit amet leo non lacinia.
-                Mauris laoreet accumsan feugiat. Nullam vel metus turpis. Integer tincidunt iaculis felis ut
-                lacinia. Duis.
-            </span>
-		</div>
-        <br>
+    <div class="container-fluid pt-0 pb-0 pr-0 pl-0">
+        <div class="row no-gutters bg-color-name-title">
+            <div class="col">
+                <a href="index.html"><h1 class="name">Stuart Chandler</h1></a>
+                <a href="index.html"><h2 class="title">&#60;Full Stack Developer/&#62;  &#60;Data Engineer/&#62;</h2></a>
+            </div>
+        </div>
+    </div>
+            
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
+        <div class="justify-content-center" id="navbarColor01">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item pl-2 pr-2">
+                    <a href="experiences.html"><i class="fas fa-graduation-cap"></i><span> Resume</span></a>
+                </li>
+                <li class="nav-item pl-2 pr-2">
+                    <a href="assets/cv/mycv.pdf" target="_blank"><i class="fas fa-download"></i><span> Download</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+  
+    <!--<img src="assets/images/EngineeringDataAnalysis.jpg" alt="MyDataAnalysis" width="100%" height="300">-->
+    
+    <section id="showcase-image-section">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <img src="assets/images/Systems-engineering-process.PNG">
+                <h1>Systems Engineering Process.</h1>
+                <p>The key to this process is understanding the three key elements and their relationships: Operational System View; Functional System Views; Physical System Views.</p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="carousel-caption">
+                <img src="assets/images/Sysml-4-pillars.JPG">
+                <h1>System Models.</h1>
+                <p>To help with understanding the system views and their interactions, it is useful to build system models. The System Modelling Language (SysML) is a popular approach and is essential to achieving a good model-based system engineering design approach, due to it's level of integration and is based on Unified Modelling Language (UML).</p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <img src="assets/images/digital-twins-article-4-graphic.PNG">
+                <h1>Evolution Through Feedback.</h1>
+                <p>In order to evolve the system models with improving accuracy it will be necessary to collect key data from the actual physical systems that will inform how to adjust the algorithms based on this feedback of information.</p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
+    
+    <section id="about-me-section" class="pt-5">
+        <div class="container text-center">
+            <div class="row no-gutters pb-5">
+                <div class="col">
+                    <h3>About me</h3>
+                </div>
+            </div>
+            <div class="row no-gutters pb-5">
+                 <div class="col-md-4 col-sm-12">
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="about-me-h5">What can I do?</h5>
+                    <p>I am an experienced and skilled Engineering Data Analyst and I am presently improving my skill-base by studying for a Professional Diploma in Faull-stack Web Development. I have analysed the data from a large range of disparate systems over a period of almost 30 years, so I am able to apply my skills to any type of system that produces data on it's condition and fault codes.</p>
+                  </div>
+                 <div class="col-md-4 col-sm-12">
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="about-me-h5">How can I do it?</h5>
+                    <p>I use various different technologies, depending on the system and environment of the project in question. I started with the Microsoft suite of office tools, like Excel and Access with VBA, and I have used MatLab to analyse vehicle data by applying Machine Learning algorithms to predict the remaining useful life of installed equipment.</p>
+                  </div>
+                
+                 <div class="col-md-4 col-sm-12">
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="about-me-h5">Why hire me?</h5>
+                    <p>I understand a number of different technologies and I am very proficient at engineering research with information verification, so i know that the content of what I use is the best it can possibly be for any project.</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resume-content-section" class="pt-5 pb-5">
+      <div class="container text-center">
+          <h2>Experience Scope</h2>
+          <br>
+          <br>
+          <div class="bd-example bd-example-tabs">
+            <div class="row">
+              <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" id="v-pills-systems-tab" data-toggle="pill" href="#v-pills-systems" role="tab" aria-controls="v-pills-systems" aria-selected="false">Systems</a>
+                  <a class="nav-link active show" id="v-pill-tasks-tab" data-toggle="pill" href="#v-pills-tasks" role="tab" aria-controls="v-pills-tasks" aria-selected="true">Tasks</a>
+                  <a class="nav-link" id="v-pills-published-tab" data-toggle="pill" href="#v-pills-published" role="tab" aria-controls="v-pills-published" aria-selected="false">Published Work</a>
+                  <a class="nav-link" id="v-pills-research-tab" data-toggle="pill" href="#v-pills-research" role="tab" aria-controls="v-pills-research" aria-selected="false">Research Topics</a>
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade" id="v-pills-systems" role="tabpanel" aria-labelledby="v-pills-systems-tab">
+                    <p>The type of systems I have analysed over the years includes: Large marine heat exchangers; tornado, hawk, goshawk & Typhoon military jet aircraft; Nuclear submarines & the Pressurised Water Reactor (PWR); Heysham 2 Nuclear Power Station; Cormorant-Alpha Oil Platform; Air Traffic Control Systems; Armoured Engineering Vehicles; Simulation Based Acquisition Systems Design; Armoured 4x4 vehicle; Laser Guided Missiles for the Maritime Littoral Warfare Scenario; Invented a Thermal-Solar Closed-Loop Organic-Rankine Turbine; Command & Control Computer Network in Saudi Arbria; Gas Turbine Driven Turbo-Prop; Wind Turbines; Family of Armoured Fighting Vehicles for UK Army.</p>
+                  </div>
+                  <div class="tab-pane fade active show" id="v-pills-tasks" role="tabpanel" aria-labelledby="v-pills-tasks-tab">
+                    <p>Computer-Aided Design; Spare Parts Mthematical Modelling; Maintenance Task Analysis; Reliability Centred Maintenance Analysis; Reliability Engineering Modelling & Analysis; Whole Life Cost Modelling & Analysis; Simulation Based Acquisition Systems Research & Analysis; Integrated Logistic Support Manager; Maintenance Support Analysis; Inventor of Renewable Energy Systems; Support Systems Requirements Analysis; Systems Modelling Research & Analysis; Vehicle Data Conversion, Systems Model Design & Machine Learning Development for the prediction of the Remaining Useful Life.</p>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-published" role="tabpanel" aria-labelledby="v-pills-published-tab">
+                    <p>I have two published research papers: "Holistic Design Analysis", published in the International Journal of Simulation Systems Science & Technology in 2004; "Through Life Systems Engineering Design & Support with SysML", published in Procedia CIRP by Elservier in November 2013.</p>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-research" role="tabpanel" aria-labelledby="v-pills-research-tab">
+                    <p>I have research a number of topics, some as part of Master and PhD degrees and others as personal interest, which include: Economic Availability Modelling for Design Trade-Off Analysis was my final year project for my MSc Degree in Advanced Manufacturing Systems Engineering at Brunel University in 1996; Stirling Engine & Solar Turbine Research & Design as part of my personal work, where the latter resulted in a patent being awarded; Through Life Systems Engineering Design & Support of Renewable Energy Systems as part of my PhD Degree at Durham University.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+   
+	<section id="personal-information-section" class="pt-5">
+    <div class="container text-center">
+        <div class="row no-gutters pb-5">
+            <div class="col">
+                <h3>Personal Information</h3>
+            </div>
+        </div>
+        <div class="row no-gutters pb-5">
+            <div class="col-md-6 col-sm-12">
+                <h5><i class="fa fa-id-card" aria-hidden="true"></i> Stuart R. Chandler</h5>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h5><i class="fa fa-address-book" aria-hidden="true"></i> 7 Middle Row, Rhymney, Tredegar, NP22 5QJ</h5>
+            </div>
+        </div>
+        <div class="row no-gutters pb-5">
+            <div class="col-md-6 col-sm-12">
+                <h5><i class="fa fa-mobile" aria-hidden="true"></i> 01685 652896</h5>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h5><i class="fa fa-envelope-open" aria-hidden="true"></i> chandler.cygnus@gmail.com</h5>
+            </div>
+        </div>
+    </div>
+  </section>
 
 	<footer>
 		<div class="row no-gutters">
@@ -154,7 +245,6 @@
 			</div>
 		</div>
 	</footer>
-
 </body>
 
 </html>
