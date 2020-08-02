@@ -92,16 +92,16 @@ p {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 30rem;
+  height: 15rem;
   background-color: #777;
 }
-.carousel-item > img {
+/*.carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 30rem;
-}
+}*/
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -131,15 +131,30 @@ p {
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+@media (max-width: 1200px) {
+    .carousel-item {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .carousel-item {
+        height: 25rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .carousel-item {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .carousel-item {
+        height: 35rem;
+    }
 }
 
 /*-----------------------------------Footer------------------------------*/
