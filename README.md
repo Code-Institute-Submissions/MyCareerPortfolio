@@ -61,6 +61,14 @@ The project was published to Github pages from Gitpob modifiying code to GitHub 
 
 ## Credits
 
+Home page - Systems Engineering Process image comes from: https://www.researchgate.net/figure/Systems-engineering-process_fig1_220432570.
+
+Home page - System Models image come from: https://www.omgsysml.org/what-is-sysml.htm.
+
+Home page - Evolution Through Feedback image comes from: https://www.londonreconnections.com/2019/the-layers-of-digital-twins-rssb/.
+
+Home page - Experience Scope image comes from: https://www.reddit.com/r/MilitaryPorn/comments/2w00i1/a_t45_goshawk_from_training_air_wing_2_launches/
+
 2020 from 2015 image comes from: https://uklandpower.files.wordpress.com/2017/12/scout-family.jpg?w=616
 
 2014 from 2012 image comes from: https://images.squarespace-cdn.com/content/v1/59d4e7a964b05fbc36e24371/1509447773816-RV3BDADNMMROTVTEJTQ1/ke17ZwdGBToddI8pDm48kDAM1TzZbz7FQzyBVXkD1rhZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwC6wFkH6fg6k1a3JcCd1gdvDaJommVL4U2dFoZ3PUdcGemYEZf4wy9NTIERCnW2cU/Wind-Turbine-Schematic-2011-06-01.12.jpg?format=750w
