@@ -67,12 +67,8 @@ p {
     padding-bottom: 2em;
 }
 
-#showcase-carousel {
-    height: 20em;
-}
-
 #resume-content-section {
-    background-image: linear-gradient(#a2a2a273, #b5b5b587), url(../images/T45-Goshawk.jpg);
+    background-image: linear-gradient(#eeeeeeb0, #ffffffd0), url(../images/T45-Goshawk.jpg);
     background-size: cover;
 }
 
@@ -96,22 +92,36 @@ p {
   background-color: #777;
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+.circle-container {
+    width: 15em;
+    height: 15em;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0.1em;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
+#circle-container-bg-1 {
+    background: url(../images/modelLifeCycleSmall.png) no-repeat center center;
+    background-size: 90%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-container-bg-2 {
+    background: url(../images/Some-Software-Used.jpg) no-repeat center center;
+    background-size: 70%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-container-bg-3 {
+    background: url(../images/Super.jpg) no-repeat center center;
+    background-size: 130%;
+    height: 100%;
+    border-radius: 50%;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -158,6 +168,12 @@ p {
 
 /*-----------------------------------Footer------------------------------*/
 
+footer h3 {
+    margin: 0;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+
 .column-footer {
   width: 100%;
   min-height: auto;
@@ -167,13 +183,14 @@ p {
 
 .column-footer p {
   text-align: justify;
-  padding: 10px;
+  padding-left: 1.7em;
+  padding-right: 1em;
 }
 
 .social-links {
   margin: 0;
-  padding: 0;
   column-count: 5;
+  padding-bottom: 1em;
 }
 
 ul {
