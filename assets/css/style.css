@@ -243,6 +243,10 @@ footer h3 {
   color: rgb(227, 227, 240);
 }
 
+.column-footer h3 {
+    text-align: center;
+}
+
 .column-footer p {
   text-align: justify;
   padding-left: 2.3em;
