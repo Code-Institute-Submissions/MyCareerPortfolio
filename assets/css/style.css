@@ -224,8 +224,13 @@ p {
 
 /* Experiences.html */
 
+#expTitle {
+    text-align: center;
+}
+
 .card {
   margin-bottom: 1em;
+  box-shadow: 3px 6px #033a8b;
 }
 
 /*-----------------------------------Footer------------------------------*/
