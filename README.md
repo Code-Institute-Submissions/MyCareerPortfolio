@@ -18,7 +18,7 @@ Another blue button should appear to click: *Open Browser*.
 
 ## UX
 
-To get to a point where coding could start I used Balsamiq Wireframes to experiment with various arrangements, see link: (https://e9b69726-707e-4f11-8b32-2169d2e7908e.ws-eu01.gitpod.io/files/download/?id=f2eedcf5-2673-4adf-bd15-75573a499e71), which in the end was loosly followed. The end result was a better arrangement to accommodate the various screen sizes from mobiles to PC screens. The design ethos was to produce a responsive web design approach.
+To get to a point where coding could start I used Balsamiq Wireframes to experiment with various arrangements, see link: https://github.com/CygnusKernow/MyCareerPortfolio/blob/bc68ee3a9b9757b5b73ba85397416909d45bd02f/assets/Skeleton-Plane/Personal-Portfolio.pdf, which in the end was loosly followed. The end result was a better arrangement to accommodate the various screen sizes from mobiles to PC screens. The design ethos was to produce a responsive web design approach.
 
 This web site is too show what I have achieved in almost 30 years in work covering many different types of systems where the projects existed in many different countries world-wide. Show-casing my achievements and skills is for the intended marketplace of Engineering Companies, Research Establishments and Recruitment Agencies for the purpose of obtaining a new career position.
 

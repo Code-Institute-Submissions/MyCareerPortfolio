@@ -8,10 +8,6 @@ p {
     margin: 0;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
 /*-----------------------------------Header------------------------------*/
 
 .header-background {
@@ -43,7 +39,7 @@ p {
     padding-bottom: 20px;
     margin: 0;
 }
-
+/*
 .nav a i {
     height: 30px;
     text-align: center;
@@ -52,7 +48,7 @@ p {
 .nav a i:hover {
     background: yellowgreen;
 }
-
+*/
 /*Experience Scope*/
 
 #v-pills-tabContent {
@@ -116,7 +112,7 @@ p {
     width: 14em;
     height: 14em;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #033a8b;
     border-width: 0.1em;
     border-radius: 50%;
     margin: 0 auto;
@@ -244,9 +240,15 @@ p {
 .column-footer {
     width: 100%;
     min-height: auto;
-    background-color: #343a40;
-    color: rgb(227, 227, 240);
+    /*background-color: #343a40;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Lost-at-SEA.jpg);
+    background-size: cover;
+    color: #ffffff;
     padding-top: 0.5em;
+}
+
+.cv-pdf i {
+    color: rgb(17, 47, 218);
 }
 
 .social-links {
@@ -271,7 +273,7 @@ ul {
   font-size: 13px;
   line-height: 7px;
   text-align: center;
-  color: rgb(12, 44, 223);
+  color: rgb(17, 47, 218);
   background: rgb(237, 247, 244);
 }
 
