@@ -38,15 +38,15 @@ During coding GitHub with Gitpod was used along with the use of Visual Studio Co
 
 index.html:
 
-The only error from this file using validator.w3.org is as follows: https://e9b69726-707e-4f11-8b32-2169d2e7908e.ws-eu01.gitpod.io/files/download/?id=26ae1c2f-3851-4544-b18c-e8159b095c23. However, I am ignoring this error as I am getting the result I want with it being in place.
+No errors from this file using validator.w3.org is as follows: https://eb83a90c-01df-4bb4-a436-7678aec2e362.ws-eu01.gitpod.io/files/download/?id=614e664e-8819-4913-8858-cb9024b6098d. However, I am ignoring this error as I am getting the result I want with it being in place.
 
 experiences.html:
 
-There are 14 errors and 1 warning in this file as shown in: https://github.com/CygnusKernow/MyCareerPortfolio/blob/9fb594b7cf127a2c551873b1af28567b1203c6c0/assets/Testing-Errors/experiences-file-errors.jpg. The 14 errors are the same as the one error in the index file. Since I am getting the result I want to provide all of these are being ignored and considered irrelevant.
+There are no errors from this file using validator.w3.org as shown in: https://eb83a90c-01df-4bb4-a436-7678aec2e362.ws-eu01.gitpod.io/files/download/?id=56f57944-3af0-415e-b1da-e4e0565fcb15.
 
 style.css:
 
-No errors present in this file:
+No errors from in this file using https://jigsaw.w3.org/css-validator/ as shown: https://eb83a90c-01df-4bb4-a436-7678aec2e362.ws-eu01.gitpod.io/files/download/?id=8596e89e-0ceb-4555-a46a-59567988558e
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
