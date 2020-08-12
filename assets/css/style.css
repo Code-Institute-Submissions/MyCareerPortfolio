@@ -38,16 +38,7 @@ p {
     padding-bottom: 20px;
     margin: 0;
 }
-/*
-.nav a i {
-    height: 30px;
-    text-align: center;
-}
 
-.nav a i:hover {
-    background: yellowgreen;
-}
-*/
 /*Experience Scope*/
 
 #v-pills-tabContent {
@@ -232,6 +223,10 @@ p {
   border-width: 0.2em;
   box-shadow: 0.3em 0.3em 0.3em #033a8b;
   padding-top: 1em;
+}
+
+.card-style img {
+    width: 100%;
 }
 
 /*-----------------------------------Footer------------------------------*/
