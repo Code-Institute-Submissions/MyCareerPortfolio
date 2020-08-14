@@ -18,9 +18,15 @@ Another blue button should appear to click: *Open Browser*.
 
 ## UX
 
+The main goals was to showcase my achievements in a more graphical way to make it easier for the user to follow. The graphics also help keep the user's attention. The experience page provides the means for users to look into specific areas of my work history in more detail, rather than being bombarded with all the information on a single page, as some parts of my history wouldn't be relevant to all users.
+
+## Design
+
 To get to a point where coding could start I used Balsamiq Wireframes to experiment with various arrangements, see link: https://github.com/CygnusKernow/MyCareerPortfolio/blob/bc68ee3a9b9757b5b73ba85397416909d45bd02f/assets/Skeleton-Plane/Personal-Portfolio.pdf, which in the end was loosly followed. The end result was a better arrangement to accommodate the various screen sizes from mobiles to PC screens. The design ethos was to produce a responsive web design approach.
 
-This web site is too show what I have achieved in almost 30 years in work covering many different types of systems where the projects existed in many different countries world-wide. Show-casing my achievements and skills is for the intended marketplace of Engineering Companies, Research Establishments and Recruitment Agencies for the purpose of obtaining a new career position.
+The color scheme evolved around to predominately blue as I find it easier on the eyes and it's a relaxing color.
+
+This web site is to show what I have achieved in almost 30 years in work covering many different types of systems where the projects existed in many different countries world-wide. Show-casing my achievements and skills is for the intended marketplace of Engineering Companies, Research Establishments and Recruitment Agencies for the purpose of obtaining a new career position.
 
 ## Features
 
@@ -29,6 +35,14 @@ The main features allows the user to navigate easily through the web-site, which
 The main improvements is to replace all of the Lorem ipsum text with the real factual detailed text.
 
 ## Technologies used
+
+The technologies used during development include:
+
+1) KnowledgeBase Builder
+2) Balsamiq Wireframes
+3) Visual Studio Code
+4) GitHub
+5) Gitpod
 
 At the beginning mind mapping with the KnowledgeBase Builder was used to get a feel for the requirements of the project for the strategy formulation part of the design process. This was followed by frog leaping the scope and structure process steps to produce the Wireframes using Balsamiq Wireframes tool for the skeleton plane design step.
 
